@@ -1,0 +1,45 @@
+
+Loop FOR para as perguntas:
+
+
+string usuario=0;
+int final = 1;
+
+for(;;){
+	opção 0
+	opção 1 == senha
+	{usuário = 1}
+	opção 2 == senha
+	{usuário = 2}
+
+	if(final == 0)
+	{
+	break;
+	}else{
+		final = funcionamento(usuario);
+	}
+}
+
+funcionamento(int usuario){
+	opção 1
+	{
+		if(usuario >= 0){
+			OK
+		}
+	}
+	opção 2
+	{
+		if(usuario >= 1){
+			OK
+		}
+	}
+	opção 3
+	{
+		if(usuario >= 2){
+			OK
+		}
+	}
+	opção 4 sair{
+		return 0;
+	}
+}
